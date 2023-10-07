@@ -3,7 +3,7 @@ pipeline{
     stages{
         stage('checkout'){
             steps{
-                checkout scmGit(branches: [[name: '*/dev']], extensions: [], userRemoteConfigs: [[url: 'https://github.com/Venna12/taxi-booking.git']])
+                https://github.com/madhumathi04/taxi-booking.git:wq!
             }
         }
         stage('Build'){
